@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="link-header" href="#">INÍCIO</a>
+        <a class="link-header" href="#">CONTAGEM</a>
+        <a class="link-header" href="#">SOBRE</a>
+        <a class="link-header" href="#">CONTATO</a>
+    </header>
+
+    <main class="wrapper">
+        
+        <section id="title">
+            VAMOS CONTAR?
+        </section>
+
+    </main>
+
+    <main class="wrapper-bottom">
+
+        <section class="container-top">
+            <p>
+                Início:
+                <input type="number" id="txti">
+            </p>
+
+            <p>
+                Fim:
+                <input type="number" id="txtf">
+            </p>
+
+            <p>
+                Intervalo:
+                <input type="number" id="txtinter">
+            </p>
+
+        <p><input type="button" id="btn-enviar" onclick="enviar()" value="ENVIAR"></p>
+        
+        </section>
+
+        <section class="container-bottom">
+            Processando a Contagem...
+        </section>
+
+    </main>
+    
+</body>
+
+<footer>
+
+    <p>&copy; Cursos</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</html>
+
