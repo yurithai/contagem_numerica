@@ -4,8 +4,8 @@ function enviar() {
     let inter = document.querySelector("#txtinter")
     let res = document.querySelector(".container-bottom")
 
-    if (ini.value.length == 0 || fim.value.length == 0 || inter.value.length == 0) { // Se a qtd de letras for 0  
-            alert("ERRO")
+    if (ini.value.length == 0 || fim.value.length == 0 || inter.value.length == 0 && inter == 0) { // Se a qtd de letras for 0  
+            alert("ERRO! Preencha os dados novamente")
     }
     else {
         res.style.textAlign = "justify"
