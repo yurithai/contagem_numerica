@@ -51,14 +51,14 @@ footer {
 }
 
 .wrapper-bottom {
-    font-size: 25px;
-    background: #99d6c7;
-    width: 680px;
+    width: 600px;
     height: auto;
     margin: auto;
-    border-radius: 7px;
-    box-shadow: 5px 5px 10px rgb(189, 185, 185);
     padding: 15px;
+    font-size: 25px;
+    border-radius: 7px;
+    background: #99d6c7;
+    box-shadow: 5px 5px 10px rgb(189, 185, 185);
 }
 
 #txti, #txtf, #txtinter {
@@ -85,9 +85,9 @@ footer {
 }
 
 .container-bottom {
-    text-align: center;
     margin: 30px;
     font-size: 25px;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
