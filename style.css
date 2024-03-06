@@ -91,17 +91,27 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .link-header{
+        font-size: 18px;
+        margin-right: 30px;
+    }
 
     header {
-     display: none;
+        margin: 20px 0 0 30px;
     }
-    
-    .container-bottom {
-        text-align: justify;
+
+    .link-header:nth-child(1), .link-header:nth-child(5) {
+        display: none;
     }
 
     .wrapper-bottom {
-        width: auto;
+        width: 300px;
+        padding-bottom: 10px;
+    }
+
+    #btn-enviar {
+        margin: auto;
+        display: block;
     }
 }
 
